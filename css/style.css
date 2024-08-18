@@ -1,0 +1,325 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+span,strong{
+    display: inline-block;
+}
+/* common css end */
+
+/* header section css start */
+header{
+    
+}
+.logo_with_menu {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    padding: 30px 0;
+}
+nav {
+    
+    z-index: 1020;
+    
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: block;
+    margin-bottom: 6px;
+}
+.logo img{}
+
+.main_menu{}
+.main_menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 76px;
+    margin: 0;
+}
+.main_menu ul li{}
+.main_menu ul li .active{
+    font-weight: 700;
+    color: #4756DF;
+}
+.main_menu ul li a {
+    font-size: 18px;
+    font-weight: 400 !important;
+    color: #fff;
+    transition: .5s;
+}
+.main_menu ul li:hover a {
+    /* font-weight: 700; */
+    color: #4756DF;
+}
+
+.header_btn {
+    text-align: right;
+}
+.basic_menu{
+    padding: 15px 42px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    background: #6A4DF4;
+    border-radius: 10px;
+}
+
+/* bannar section css start  */
+#bannar{
+    background: url(../images/agenc-Banner\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 896px;
+    
+}
+.bannar_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(0 0 0 / 62%);
+}
+.bannar_content{
+    padding: 315px 0 176px 0;
+    width: 950px;
+    margin: 0 auto;
+    z-index: 1022;
+    text-align: center;
+}
+.bannar_content h1 {
+    font-size: 75px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    line-height: 120%;
+}
+.bannar_content p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    width: 621px;
+    margin: 0 auto;
+    line-height: 26px;
+    padding: 51px 0 40px 0;
+}
+
+/* bannar section css end */
+/* header section css end */
+
+
+/* counter section css start  */
+.counter_bg{
+    background: #E0FFF9;
+    padding: 85px 36px 86px 50px;
+    margin: 171px auto 149px auto;
+    border-radius: 20px;
+}
+
+.counter_text{}
+.counter_text h5{
+    font-size: 25px;
+    font-weight: 500;
+    color: #6A4DF4;
+
+}
+.counter_text h3{
+    color: #151515;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.counter_point {
+    padding-left: 88px;
+    padding-right: 0;
+}
+.counter_point h2{
+    color: #151515;
+    font-size: 50px;
+    font-weight: 700;
+}
+.counter_point p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #737373;
+    margin: 0;
+}
+/* counter section css end  */
+
+/* service section css start  */
+.sevice_text {
+    text-align: center;
+    padding: 0px 340px;
+    margin-bottom: 50px;
+}
+.sevice_text h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #151515;
+    margin-bottom: 20px;
+}
+.sevice_text p{
+    font-size: 16px;
+    color: #737373;
+    font-weight: 400;
+    line-height: 26px;
+}
+.service_grid {
+    padding: 80px 49px 49px 47px !important;
+    border: none;
+    border-radius: 20px !important;
+    transition: .5s;
+    margin-bottom: 24px;
+}
+.service_grid:hover{
+    box-shadow: 0px 0px 20px -9px #000;
+}
+.service_grid_text{
+    margin-top: 40px;
+}
+.service_grid_text h5{
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #151515;
+    font-weight: 700;
+}
+.service_grid_text p{
+    font-size: 16px;
+    color: #737373;
+    font-weight: 400;
+    line-height: 26px;
+}
+/* service section css end  */
+
+/* recent work section css start  */
+#recent_work{
+    background: #F3F3F3;
+    padding: 150px 0;
+}
+
+.recent_work_title{
+    text-align: center;
+    padding: 0px 340px;
+    margin-bottom: 50px;
+}
+.recent_work_title h2{
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #151515;
+    font-weight: 700;
+}
+.recent_work_title p{
+    font-size: 16px;
+    color: #737373;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+.work_grid{
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 24px;
+}
+
+.work_grid_text {
+    padding: 30px 42px;
+    text-align: center;
+    margin-top: 30px;
+}
+.work_grid_text h5{
+    font-size: 20px;
+    color: #151515;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.work_grid_text p{
+    font-size: 16px;
+    color: #737373;
+    font-weight: 400;
+    line-height: 26px;
+}
+/* recent work section css end  */
+
+/* agenc section css start  */
+#agenc {
+    padding: 150px 0 106px 0;
+}
+.agenc_title {
+    text-align: center;
+    padding: 0px 260px;
+    margin-bottom: 50px;
+}
+.agenc_title h2{
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #151515;
+    font-weight: 700;
+}
+.agenc_title p{
+    font-size: 16px;
+    color: #737373;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.left_content{}
+.ideas{
+    margin-bottom: 88px;
+}
+.ideas img{}
+.ideas h4{
+    margin-top: 20px;
+    font-size: 25px;
+    color: #151515;
+    font-weight: 700;
+}
+.ideas p {
+    font-size: 16px;
+    color: #737373;
+    font-weight: 400;
+    line-height: 26px;
+    padding-right: 75px;
+}
+/* agenc section css end  */
+
+/* Client Reviews section css start */
+#client_reviwe{}
+.client_reviwe_title{
+    text-align: center;
+    padding: 0px 340px;
+    margin-bottom: 50px;
+}
+.client_reviwe_title h2{
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #151515;
+    font-weight: 700;
+}
+.client_reviwe_title p{
+    font-size: 16px;
+    color: #737373;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 130px;
+    
+}
+/* Client Reviews section css end */
