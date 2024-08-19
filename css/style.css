@@ -54,17 +54,17 @@ nav {
 }
 .main_menu ul li{}
 .main_menu ul li .active{
-    font-weight: 700;
+    font-weight: 700 !important;
     color: #4756DF;
 }
 .main_menu ul li a {
     font-size: 18px;
-    /* font-weight: 400 !important; */
+    font-weight: 400 !important;
     color: #fff;
     transition: .5s;
 }
 .main_menu ul li:hover a {
-    font-weight: 700;
+    /* font-weight: 700 !important; */
     color: #4756DF;
 }
 
